@@ -8,9 +8,12 @@ function App() {
   return (
     <div className="App">
       <button className="open-modal-btn" onClick={() => setOpen(true)}>Open modal</button>
-      <Modal open={open} setOpen={setOpen}/>
+        <Modal open={open} setOpen={setOpen}>
+          <img src="https://media2.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif" alt="" />
+          <h3>Modal</h3>
+        </Modal>
     </div>
-  );
+  )
 }
 
 export default App;
